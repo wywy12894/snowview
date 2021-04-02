@@ -2,7 +2,7 @@ import { defaultFont, container } from '../styles';
 import { WithStyles } from 'material-ui';
 import { StyleRules } from 'material-ui/styles';
 
-type FooterStyleKeys = 'right' | 'footer' | 'container';
+type FooterStyleKeys = 'left' |'right' | 'footer' | 'container';
 
 export type FooterStyle = WithStyles<FooterStyleKeys>;
 
