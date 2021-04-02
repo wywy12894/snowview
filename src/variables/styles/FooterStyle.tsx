@@ -7,6 +7,12 @@ type FooterStyleKeys = 'right' | 'footer' | 'container';
 export type FooterStyle = WithStyles<FooterStyleKeys>;
 
 const footerStyle = {
+  left: {
+    padding: '15px 0',
+    margin: '0',
+    fontSize: '14px',
+    float: 'left!important'
+  },
   right: {
     padding: '15px 0',
     margin: '0',
